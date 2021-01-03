@@ -19,7 +19,7 @@ ob_start();
                 ?>
                 <input class="form-control col mx-1 mb-3" type="file" id="formFile" name="file" accept=".xlsx" required>
                 <div class="row p-0">
-                    <input class="form-control col mx-1" type="number" name="maxNumber" max="15" placeholder="Nombre d'élève par groupes" required>
+                    <input class="form-control col mx-1" type="number" inputmode="numeric" name="maxNumber" max="15" placeholder="Nombre d'élève par groupes" required>
                     <input class="btn btn-primary col-2 w-auto mx-1" type="submit" value="Lancer le calcul !">
                 </div>
 
