@@ -1,6 +1,7 @@
 # GroupMaker
 
 GroupMaker est une application web conçue en PHP qui a pour but de faire des groupes de personnes aléatoirement.
+Le site est en ligne et est disponible à cette adresse: https://groupmaker.maximebernard-etu.fr
 
 ## Installation
 
@@ -18,6 +19,8 @@ Installer Docker Desktop (https://www.docker.com/products/docker-desktop) et ne 
 
 ### Lancer l'application
 
+> :warning: **Attention**: fermez WAMP ou tout autres logiciel utilisant le port 80, 8080 ou 3306!
+
 Pour lancer l'application, il vous faudra taper ces commandes dans le répertoire où se trouve 'docker-compose.yml':
 ```
 docker-compose build
@@ -25,3 +28,9 @@ docker-compose build
 ```
 docker-compose up
 ```
+
+### Utilisation
+
+L'application se trouve sur le port 80 (http://localhost:80).
+Pour accéder directement à la base de données, cela se passe sur le port 3306 (http://localhost:3306).
+Pour accéder à la base de données avec PhpMyAdmin, il faut vous rendre sur le port 8080 (http://localhost:8080). 
