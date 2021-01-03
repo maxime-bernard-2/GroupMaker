@@ -10,7 +10,7 @@ Cela inclut une base de données MYSQL avec PhpMyAdmin et un serveur composé de
 
 ### Docker
 
-Installer Docker Desktop (https://www.docker.com/products/docker-desktop) et ne pas oublier de le lancer une fois l'installation terminée.
+Installer [Docker Desktop](https://www.docker.com/products/docker-desktop) et ne pas oublier de le lancer une fois l'installation terminée.
 
 > Si vous n'êtes pas familier avec Docker, je vous conseille ces vidéos:
 
@@ -32,9 +32,11 @@ docker-compose up
 
 ### Utilisation
 
-L'application se trouve sur le port 80 (http://localhost:80).
-Pour accéder directement à la base de données, cela se passe sur le port 3306 (http://localhost:3306).
-Pour accéder à la base de données avec PhpMyAdmin, il faut vous rendre sur le port 8080 (http://localhost:8080).
+L'application se trouve sur [le port 80](http://localhost:80).
+Pour accéder directement à la base de données, cela se passe sur [le port 3306](http://localhost:3306).
+Pour accéder à la base de données avec PhpMyAdmin, il faut vous rendre sur [le port 8080](http://localhost:8080).
 
-L'appplication ne marche qu'avec un type de fichier qui est le XLSX. Pour que tout marche bien, 
-veuillez utiliser ce <a href="ttps://drive.google.com/file/d/1yrEBeDg6ypIsj1i8ccbXeVn_YEbebCZF/view?usp=sharing">template</a>
+L'appplication ne marche qu'avec un type de fichier qui est le XLSX. Pour que tout marche, 
+veuillez utiliser ce [template](https://drive.google.com/file/d/1yrEBeDg6ypIsj1i8ccbXeVn_YEbebCZF/view?usp=sharing)
+
+>Il se trouve aussi à la racine du projet sous le nom de list.xlsx
