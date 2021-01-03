@@ -19,7 +19,7 @@ Installer [Docker Desktop](https://www.docker.com/products/docker-desktop) et ne
 
 ### Lancer l'application
 
-<span style="color:red">:warning: **Attention**: fermez WAMP ou tout autres logiciel utilisant le port 80, 8080 ou 3306!</span>
+> :warning: **Attention**: fermez WAMP ou tout autres logiciel utilisant le port 80, 8080 ou 3306!
 
 Pour lancer l'application, il vous faudra taper ces commandes dans le répertoire où se trouve 'docker-compose.yml':
 ```
